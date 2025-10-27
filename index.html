@@ -1,0 +1,335 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The coffee queen</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        nav{ 
+            margin-top: 0%;
+            margin-left: 18px;
+            width: 1467px;
+            overflow:hidden;
+            background-color:#3e1a1a;
+        }
+        nav img{
+            margin: 5px;
+            border-radius: 300%;
+            height:100px;
+            width:100px;
+            align-items:left;
+        }
+        nav ul{
+            float:right;
+        }
+        nav li{
+            margin:25px;
+            display:inline-block;
+        }
+        nav li a{
+            color:white;
+            padding:30px 60px;
+        }
+        nav li a:hover{
+            background-color:antiquewhite;
+            color:#3e1a1a;
+            
+        }
+        nav button{
+            height: 30px;
+            width:120px;
+            background-color: #3e1a1a;
+            color: white;
+            box-shadow: 0 0 10px #800020;
+            border-radius: 50px;
+        }
+        nav button:hover {
+            box-shadow:0 0 10px rgb(255, 12, 3);
+            background-color: #c44e6bed;
+        }
+        .home{
+            background: url("https://wallpapers.com/images/hd/cappuccino-with-coffee-beans-kwrv8tjpabo5bhj0.jpg") no-repeat center;
+            background-size:cover;
+            height:500px;
+            width:1467px;
+            margin:-40px 18px 25px 18px;
+            border: 2px #3e1a1a;
+            box-shadow: 0 0 10px rgba(247, 104, 104, 0.77);
+        }
+        .po{
+            color: rgb(255, 224, 182);
+            font-size: 40px;
+            padding-top: 180px;
+            padding-left: 370px;
+            animation: po 1s infinite;        }
+        .about{
+            
+            margin:25px 18px;
+            padding:30px;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN5_wC2r1LfTLHn_xLMT1haCgm_wJQQi3BcA&s")center ;
+            opacity: 0.9;
+            color:rgb(255, 255, 255);
+            box-shadow: 0 0 10px rgba(247, 104, 104, 0.77);
+        }
+        .about h1{
+            font-weight: bold;
+            text-align: center;
+            color: antiquewhite;
+        }
+        .about p{
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .products{
+            color:antiquewhite;
+            margin:25px 18px;
+            padding:20px;
+            border:2px solid #800020;
+            background-color:#3e1a1a ;
+            box-shadow: 0 0 10px rgba(247, 104, 104, 0.77);
+        }
+        .products h1{
+            color:antiquewhite;
+            text-align: center;
+        }
+        .s2{
+            position: static;
+            margin-top:-70px;
+            padding:50px 30px 50px 30px;
+            display: flex;
+            flex-direction: row;
+        }
+        .d1{
+            align-content: center;
+            background-color: rgb(248, 232, 209);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            width: auto;
+            height: auto;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);   
+        }
+        .d1 img{
+            width:300px;
+            height:300px;
+            border-radius: 8px;
+        }
+        .d1 h3,h2{
+            color:#3e1a1a;
+        }
+        .d1 button{
+            background-color: rgb(238, 115, 53);
+            border-color: rgb(246, 134, 5);
+            border-radius: 8px;
+            height: 30px;
+            margin-top:-17px;
+            color: white;
+        }
+        .d1 button:hover{
+            background-color: rgb(255, 87, 4);
+        }
+        .footer{
+            background-color:#3e1a1a;
+            margin-bottom: -30px ;
+            margin-top:20px;
+            text-align:center;
+            
+        }
+        .cp{
+            
+            text-align: center;
+            margin:25px 18px;
+            padding:30px;
+            border:2px solid #800020;
+            background-color:#3e1a1a;
+            box-shadow: 0 0 10px rgba(247, 104, 104, 0.77);
+        }
+        .cp p,h4,h3{
+            color:#3e1a1a;       
+        }
+        .h24{
+            size: 20px;
+            color: whitesmoke;
+        }
+        @keyframes po {
+           0%,100%{ 
+            
+                opacity: 1; 
+            }
+            50% { color: whitesmoke;
+                opacity: 1; }
+
+            
+        }
+        .b1{
+            background-color: rgb(253, 150, 99);
+            border-color: rgb(246, 134, 5);
+            border-radius: 20px;
+            height: 40px;
+            width:90px;
+            margin-left:370px;
+            color: white;
+        }
+        .b1:hover{
+            background-color: rgb(252, 95, 16);
+        }
+        .d2{
+            background-color: rgb(248, 232, 209);
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding:20px 90px;
+            margin: 10px;
+            width: auto;
+            height: auto;
+            text-align: center;
+            color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+        }
+        .d2 h3,h2{
+            color:#3e1a1a;
+        }
+        .s3{
+            margin: 10px;
+            position: static;
+            padding:50px 30px 50px 30px;
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img src="https://img.freepik.com/premium-vector/coffee-svg-t-shirt-design_804716-85.jpg" alt="logo" >
+        <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#CP">Contact US</a></li>
+        </ul>
+    </nav>
+    <section id="Home" class="home">
+        <p class="po">Your Daily Grind<br>Our Perfect Blend</p>
+        <a href="cp1.html"><button class="b1">Order Now</button></a>
+    </section>
+    <section id="about" class="about">
+    <h1><b>About Coffee Queen</b></h1>
+    <p>At Coffee Queen, we believe coffee isn't just a drink-it's an experience. 
+        Nestled in the heart of the city, our cafe is a cozy retreat where aroma, flavor, and comfort come together.
+        Whether you're craving a bold espresso, a smooth latte, or a refreshing iced brew, every cup is made with care, quality beans, and a touch of royalty.
+        We're more than just coffee. 
+        From freshly baked treats to friendly service, we aim to create a warm, welcoming space where everyone feels like royalty.
+        So take a seat, sip slowly, and enjoy your moment-because at Coffee Queen, you rule the day.</p>
+    </section>
+    <section id="products" class="products">
+    <h1>Coffee Queen Coffee's</h1>
+    <div class="s2">
+    <div class="d1">
+        <img src="https://img.freepik.com/premium-photo/hot-latte-art-coffee-white-mug_28933-382.jpg?semt=ais_hybrid&w=740&q=80" alt="b" >
+        <h3>Cappuccino</h3>
+        <h3>50rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+    </div>
+    <div class="d1">
+        <img src="https://img.freepik.com/free-photo/hot-coffee-glass-wooden-table_1150-13458.jpg?semt=ais_hybrid&w=740&q=80" alt="s">
+        <h3>Americano</h3>
+        <h3>150rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+    </div>
+    <div class="d1">
+        <img src="https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg" alt="e">
+        <h3>Latte</h3>
+        <h3>100rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+    </div>
+    <div class="d1">
+        <img src="https://img.freepik.com/free-photo/glass-cup-with-coffee-teaspoon_1286-242.jpg?semt=ais_hybrid&w=740&q=80" alt="shirt">
+        <h3>Flat White</h3>
+        <h3>100rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+    </div>
+    </div>
+    <div class="s2">
+        <div class="d1">
+            <img src="https://img.freepik.com/free-photo/cold-chocolade-table_140725-43747.jpg?semt=ais_hybrid&w=740&q=80" alt="pic">
+            <h3>Mocha</h3>
+            <h3>150rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnplBaRQeQLjf4r-ifPX9gjbgmqQuQNrMHZYEDl6fjRzKqEaMNXAx-qwaLekIeI5ekcMM&usqp=CAU" alt="black">
+            <h3>Expresso</h3>
+            <h3>100rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://img.freepik.com/premium-photo/ice-frappe-coffee-topping-with-ice-cream-wooden-table_126740-514.jpg?w=360" alt="blue">
+            <h3>Frappe</h3>
+            <h3>70rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://img.freepik.com/free-photo/iced-coffee-latte_23-2151961339.jpg?semt=ais_hybrid&w=740&q=80" alt="tshirt">
+            <h3>Cold Brew</h3>
+            <h3>100rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+    </div>
+    <div class="s2">
+        <div class="d1">
+            <img src="https://img.freepik.com/free-photo/aromatic-frappuccino-table_23-2148900667.jpg?semt=ais_hybrid&w=740&q=80" alt="y">
+            <h3>Iced Coffee</h3>
+            <h3>150rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://img.freepik.com/free-photo/hot-coffee-glass-wooden-table_1150-13458.jpg?semt=ais_hybrid&w=740&q=80" alt="blue">
+            <h3>Black Coffee</h3>
+            <h3>50rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://i.pinimg.com/736x/76/60/e8/7660e87fdc9a5f5de3722edf758f69a0.jpg" alt="cream">
+            <h3>Robusta Coffee</h3>
+            <h3>100rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+        <div class="d1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTza3ZqxCVFsjOVNKKalk6f_JLSu8sMBzj0Kw&s" alt="sh">
+            <h3>Chocolate Coffee</h3>
+            <h3>90rs</h3>
+        <a href="cp1.html"><button>Order Now</button></a>
+        </div>
+    </div>
+</section>
+<section id="CP" class="cp">
+    <div class="s3">
+    <div class="d2">
+    <h3>Contact Us</h3>
+    <p>If you have any question about our products or a special request?Then<br>
+        <h4>Contact Us at:0123764</h2><h4>Email Us:CoffeeQueen56@gmail.com</h4></p>
+    </div>
+    <div class="d2">
+        <h3>Our Stores</h3>
+        <h3>Downtown Location</h3>
+        <p>123 CoffeeQueen Street<br>Sangli,Maharashtra</p>
+    </div>
+    <div class="d2">
+        <h3>Our special</h3>
+           <p>Latte<br>
+            Cappuccino<br>
+            Mocha<br>
+            Robusta Coffee
+        </p> 
+    </div>
+</div>
+<footer class="footer">
+<h4 class="h24">&copy; Coffee Queen's All Copyrights Are Reserved</h4>
+</footer>
+</section>
+</body>
+</html>
